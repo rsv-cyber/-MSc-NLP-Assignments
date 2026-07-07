@@ -28,7 +28,7 @@ This repository contains my submitted assignments from the NLP course during my 
 ---
 
 ## Repository Structure
-
+```text
 .
 ├── assignment-01/
 │ ├── NLP_CA1.ipynb # Main notebook with all implementations
@@ -44,12 +44,7 @@ This repository contains my submitted assignments from the NLP course during my 
 ├── assignment-04/ # Placeholder for future assignments
 ├── assignment-05/ # Placeholder for future assignments
 └── requirements.txt # Project dependencies
-
-
-
-
-
-
+```
 
 ---
 
