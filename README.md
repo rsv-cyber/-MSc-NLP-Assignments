@@ -6,7 +6,7 @@
 
 ## Overview
 
-This repository contains my submitted assignments from the NLP course during my Master's program at the University of Tehran. It serves as:
+This repository contains my submitted assignments from the NLP course during my Master's program. It serves as:
 - A record of my coursework and learning journey
 - A reference for NLP techniques and implementations
 - A portfolio piece demonstrating practical NLP skills
