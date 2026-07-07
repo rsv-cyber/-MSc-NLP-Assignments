@@ -216,17 +216,19 @@ Implemented `NGramClassifier` class with evaluation metrics
 ---
 
 ## Project Structure
+
+```text
 .
 ├── assignment-01/
-│ ├── NLP_CA1.ipynb # Main notebook with all implementations
-│ ├── datasets/
-│ │ ├── ner.txt # Input text file for Question 1
-│ │ ├── ferdowsi.txt # Persian poetry corpus
-│ │ ├── hafez.txt # Hafez poetry corpus
-│ │ ├── modern_poet.txt # Modern Persian poetry
-│ │ └── digikala.csv # E-commerce review dataset
-│ └── README.md # This report
-
+│   ├── NLP_CA1.ipynb  # Main notebook with all implementations
+│   └── datasets/
+│       ├── ner.txt  # Input text file for Question 1
+│       ├── ferdowsi.txt  # Persian poetry corpus
+│       ├── hafez.txt  # Hafez poetry corpus
+│       ├── modern_poet.txt  # Modern Persian poetry
+│       └── digikala.csv  # E-commerce review dataset
+└── README.md  # This report
+```
 ---
 
 ## Conclusion
