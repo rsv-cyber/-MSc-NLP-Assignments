@@ -39,7 +39,9 @@ This repository contains my submitted assignments from the NLP course during my 
 │ │ ├── modern_poet.txt # Modern Persian poetry
 │ │ └── digikala.csv # E-commerce review dataset
 │ └── README.md # Assignment report
-├── assignment-02/ # Placeholder for future assignments
+├── assignment-02/
+│ ├── NLP_CA2.ipynb # Main notebook with all implementations
+│ └── README.md # Assignment report
 ├── assignment-03/ # Placeholder for future assignments
 ├── assignment-04/ # Placeholder for future assignments
 ├── assignment-05/ # Placeholder for future assignments
