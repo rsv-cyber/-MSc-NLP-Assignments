@@ -20,6 +20,12 @@ The repository serves as both a record of my coursework and a portfolio showcasi
 .
 ├── assignment-01/
 │   ├── NLP_CA1.ipynb
+│   ├── datasets/
+│   ├── ner.txt
+│   ├── ferdowsi.txt
+│   ├── hafez.txt
+│   ├── modern_poet.txt
+│   └── digikala.csv
 │   └── README.md
 ├── assignment-02/
 │   ├── NLP_CA2.ipynb
