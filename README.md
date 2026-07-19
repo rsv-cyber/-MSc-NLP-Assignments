@@ -33,7 +33,6 @@ The repository serves as both a record of my coursework and a portfolio showcasi
 ├── assignment-05/
 │   ├── NLP_CA5.ipynb
 │   └── README.md
-├── requirements.txt
 └── README.md
 ```
 
