@@ -1,77 +1,150 @@
-# NLP Assignments
+# Natural Language Processing Assignments
 
-> Natural Language Processing — Master's Course Assignments
+> A collection of implementations covering fundamental and modern Natural Language Processing (NLP) techniques, completed as part of my Master's course in Artificial Intelligence Engineering.
 
 ---
 
 ## Overview
 
-This repository contains my submitted assignments from the NLP course during my Master's program. It serves as:
-- A record of my coursework and learning journey
-- A reference for NLP techniques and implementations
-- A portfolio piece demonstrating practical NLP skills
+This repository contains five course assignments that progressively explore Natural Language Processing, from classical text processing techniques to modern transformer-based models and Large Language Models (LLMs).
 
-**Topics covered:**
-- Regular Expressions and Text Preprocessing
-- N-gram Language Models and Perplexity
-- Word Embeddings (TF-IDF, PPMI, Word2Vec, GloVe)
-- Text Classification and Sentiment Analysis
-- Named Entity Recognition (NER)
-- Sequence Labeling with RNNs/LSTMs
-- Text Summarization (Seq2Seq with Attention, Transformers)
-- Prompt Engineering (Zero-shot, Few-shot, Chain of Thought)
-- Multi-Agent Systems for Translation
-- Large Language Models (LLMs) and Fine-tuning
-- Model Compression (Pruning, Quantization)
-- Information Retrieval and Evaluation Metrics
+Throughout these assignments, I implemented and evaluated a wide range of NLP methods, including language modeling, information retrieval, sequence labeling, text summarization, multilingual transformers, prompt engineering, and efficient fine-tuning of large language models.
+
+The repository serves as both a record of my coursework and a portfolio showcasing practical NLP implementations using PyTorch and the Hugging Face ecosystem.
 
 ---
 
 ## Repository Structure
+
 ```text
 .
 ├── assignment-01/
-│ ├── NLP_CA1.ipynb # Main notebook with all implementations
-│ ├── datasets/
-│ │ ├── ner.txt # Input text file for Question 1
-│ │ ├── ferdowsi.txt # Persian poetry corpus
-│ │ ├── hafez.txt # Hafez poetry corpus
-│ │ ├── modern_poet.txt # Modern Persian poetry
-│ │ └── digikala.csv # E-commerce review dataset
-│ └── README.md # Assignment report
+│   ├── NLP_CA1.ipynb
+│   └── README.md
 ├── assignment-02/
-│ ├── NLP_CA2.ipynb # Main notebook with all implementations
-│ └── README.md # Assignment report
-├── assignment-03/ # Placeholder for future assignments
-├── assignment-04/ # Placeholder for future assignments
-├── assignment-05/ # Placeholder for future assignments
-└── requirements.txt # Project dependencies
+│   ├── NLP_CA2.ipynb
+│   └── README.md
+├── assignment-03/
+│   ├── NLP_CA3.ipynb
+│   └── README.md
+├── assignment-04/
+│   ├── NLP_CA4.ipynb
+│   └── README.md
+├── assignment-05/
+│   ├── NLP_CA5.ipynb
+│   └── README.md
+├── requirements.txt
+└── README.md
 ```
 
----
-
-## Assignments Overview
-
-| # | Assignment | Topics | Key Techniques | Status |
-|---|------------|--------|----------------|--------|
-| 1 | Text Processing & Language Models | Regex for NER, Tokenization, Edit Distance, N-gram LMs, Perplexity, WordPiece Tokenizer | Regex, Levenshtein/Damerau-Levenshtein, N-gram (2,4,8-gram), Perplexity, BPE/WordPiece | ✅ Submitted |
-| 2 | Word Representations & Information Retrieval | TF, TF-IDF, PPMI, Skip-gram, GloVe, Sentiment Analysis, Bias Analysis | TF-IDF, PPMI, Cosine Similarity, Precision@k (MP@5), Skip-gram, Logistic Regression, Naïve Bayes, CLIP | ✅ Submitted |
-| 3 | Deep Learning for NLP | Sequence Labeling (NER), Seq2Seq Summarization with Attention | LSTM, BiLSTM, BiGRU, Encoder-Decoder, Attention Mechanism, ROUGE, GloVe Embeddings | ✅ Submitted |
-| 4 | Transformers & Model Optimization | NER with XLM-RoBERTa, Summarization with LLMs (LLAMA, SmolLM), Pruning, Fine-tuning | XLM-RoBERTa, TokenClassification, HuggingFace Transformers, Zero/Few-shot, 4-bit Quantization, Unstructured Pruning, SFTTrainer, ROUGE, BERTScore | ✅ Submitted |
-| 5 | Prompt Engineering & Multi-Agent Systems | Translation, Prompting Strategies, Agent-based Systems | Simple Prompt, Role Play, Chain of Thought (CoT), Few-shot, Guidelines, Context-aware Prompting, Critique Agent, Multi-Agent System | ✅ Submitted |
+Each assignment contains a dedicated README describing the implementation details, datasets, experimental setup, and results.
 
 ---
 
-## Tech Stack
+# Assignment Summary
 
-| Category | Tools |
-|----------|-------|
-| Deep Learning | PyTorch, Hugging Face Transformers, PyTorch Pruning |
-| NLP Libraries | NLTK, SpaCy, Gensim, HuggingFace Datasets |
-| ML Frameworks | Scikit-learn, Logistic Regression, Naïve Bayes |
-| Word Embeddings | Word2Vec (Skip-gram), GloVe, PPMI, TF-IDF |
-| LLMs | Llama-3.2-1B, SmolLM2-360M, XLM-RoBERTa, CLIP |
-| Data Handling | NumPy, Pandas, ir_datasets |
-| Evaluation | ROUGE, BERTScore, Classification Report, MP@k |
-| Environment | Python 3.9+, Jupyter Notebook, Kaggle/Colab |
+| Assignment | Main Topics | Key Techniques |
+|------------|-------------|----------------|
+| **Assignment 1** | Text Processing & Language Modeling | Regular Expressions, Tokenization, Levenshtein Distance, Damerau-Levenshtein Distance, WordPiece, BPE, N-gram Language Models, Perplexity |
+| **Assignment 2** | Information Retrieval & Word Embeddings | TF, TF-IDF, PMI, PPMI, Skip-gram, GloVe, Sentiment Analysis, CLIP, Information Retrieval Evaluation |
+| **Assignment 3** | Deep Learning for NLP | BiRNN, BiLSTM, BiGRU, Named Entity Recognition, Seq2Seq, Attention Mechanism, Text Summarization |
+| **Assignment 4** | Transformers & Efficient Fine-tuning | XLM-RoBERTa, Token Classification, LoRA, Quantization, Pruning, Instruction Tuning, Large Language Models |
+| **Assignment 5** | Prompt Engineering & LLM Applications | Prompt Engineering, Chain-of-Thought, Few-shot Learning, Role Prompting, Multi-Agent Translation, Translation Evaluation |
 
+---
+
+# Skills Demonstrated
+
+### Classical NLP
+
+- Regular Expressions
+- Tokenization
+- Edit Distance Algorithms
+- Language Modeling
+- Information Retrieval
+- Word Embeddings
+- Text Classification
+
+### Deep Learning for NLP
+
+- Recurrent Neural Networks (RNN, LSTM, GRU)
+- Sequence Labeling
+- Attention Mechanisms
+- Encoder–Decoder Architectures
+- Text Summarization
+
+### Transformer-based NLP
+
+- XLM-RoBERTa
+- CLIP
+- Hugging Face Transformers
+- Multilingual NLP
+- Instruction Tuning
+
+### Large Language Models
+
+- Prompt Engineering
+- Zero-shot Learning
+- Few-shot Learning
+- Chain-of-Thought Prompting
+- Role Prompting
+- Multi-Agent Systems
+- LoRA Fine-tuning
+- Model Quantization
+- Model Pruning
+
+---
+
+# Tech Stack
+
+| Category | Technologies |
+|----------|--------------|
+| Programming Language | Python 3 |
+| Deep Learning | PyTorch |
+| Transformers | Hugging Face Transformers |
+| NLP Libraries | NLTK, SpaCy, Gensim, Hugging Face Datasets |
+| Machine Learning | Scikit-learn |
+| Word Embeddings | Word2Vec (Skip-gram), GloVe, TF-IDF, PPMI |
+| Large Language Models | Llama-3.2, SmolLM2, XLM-RoBERTa, CLIP |
+| Data Processing | NumPy, Pandas, ir_datasets |
+| Evaluation | ROUGE, BERTScore, BLEU, COMET, SeqEval, MP@5, Classification Metrics |
+| Development Environment | Jupyter Notebook, Kaggle, Google Colab |
+
+---
+
+# Highlights
+
+Across these assignments, I implemented and evaluated:
+
+- Classical Information Retrieval systems
+- N-gram Language Models
+- WordPiece and BPE Tokenizers
+- Skip-gram Word2Vec with Negative Sampling
+- Sentiment Analysis using learned and pre-trained embeddings
+- Named Entity Recognition with recurrent neural networks and transformers
+- Attention-based Seq2Seq models for text summarization
+- Multilingual NLP using XLM-RoBERTa
+- Parameter-efficient fine-tuning using LoRA
+- Model compression using Quantization and Pruning
+- Prompt Engineering strategies for Large Language Models
+- Multi-Agent translation workflows
+
+---
+
+# Future Work
+
+Possible extensions to this repository include:
+
+- Retrieval-Augmented Generation (RAG)
+- Vector Databases
+- Agentic AI frameworks
+- Vision-Language Models
+- Retrieval-based Question Answering
+- Reinforcement Learning from Human Feedback (RLHF)
+- Modern reasoning models
+
+---
+
+# License
+
+This repository is intended for educational purposes as part of the Natural Language Processing course in the Master's program in Artificial Intelligence Engineering.
