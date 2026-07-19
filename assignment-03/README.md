@@ -32,10 +32,6 @@ This project explores the transition from traditional NLP techniques to deep lea
 ```text
 .
 ├── NLP_CA3.ipynb              # Main notebook
-├── datasets/
-│   ├── CoNLL-2003
-│   ├── XSum
-│   └── GloVe Embeddings
 └── README.md
 ```
 
@@ -52,6 +48,19 @@ This project explores the transition from traditional NLP techniques to deep lea
 | Evaluation | Scikit-learn, ROUGE |
 | Data Processing | NumPy, Pandas |
 | Visualization | Matplotlib |
+
+---
+
+## Datasets
+
+The project uses publicly available datasets from the Hugging Face Hub:
+
+- **CoNLL-2003** (`eriktks/conll2003`) for Named Entity Recognition
+- **XSum** (`EdinburghNLP/xsum`) for abstractive text summarization
+
+Both datasets are downloaded automatically using the Hugging Face `datasets` library.
+
+Additionally, pre-trained **GloVe (6B, 100d)** embeddings are used to initialize the embedding layer in the summarization model.
 
 ---
 
